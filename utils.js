@@ -5,6 +5,7 @@ window.document.location.hostname  //表示域名 127.0.0.1
 window.document.location.href   //表示完整的URL http://127.0.0.1:9000/declaration/list
 window.document.location.port   //表示端口号 9000
 window.document.location.protocol   //表示当前的网络协议 http:
+
 const basePath = function() {
 	// 获取当前网址，如： http://localhost:8080/ems/Pages/Basic/Person.jsp
 	let curWwwPath = window.document.location.href;
